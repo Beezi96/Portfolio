@@ -88,7 +88,10 @@ a {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+}
 
+.nav-link:hover {
+    color: #1BFF07;
 }
 
 .menu:nth-last-child(1) {
@@ -333,7 +336,10 @@ main {
     line-height: 60px;
     text-decoration: none;
     color: #FFFFFF;
+}
 
+.contacts__text:hover {
+    color: #1BFF07;
 }
 
 .footer {
