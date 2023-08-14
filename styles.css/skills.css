@@ -1,0 +1,152 @@
+
+.skills__tatle {
+    font-size: 55px;
+    line-height: 72px;
+    margin-bottom: 140px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 75px;
+    column-gap: 28px;
+}
+
+.col{
+    width: calc(50% - 25px);
+}
+
+
+.html-css::before {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -57px;
+    left: 2px;
+    background-image: url('../resources/img-1.png');
+    background-repeat: no-repeat;
+}
+
+.html-css{ 
+    margin-bottom: 14px;
+}
+.js {
+    margin-bottom: 14px;
+}
+.library{
+    margin-bottom: 54px;
+}
+.mobile {
+    margin-bottom: 14px;
+}
+
+.js::before {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -57px;
+    left: 2px;
+    background-image: url('../resources/img-2.png');
+    background-repeat: no-repeat;
+}
+
+.library::before {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -57px;
+    left: 2px;
+    background-image: url('../resources/img-3.png');
+    background-repeat: no-repeat;
+}
+
+.mobile::before {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -57px;
+    left: 2px;
+    background-image: url('../resources/img-4.png');
+    background-repeat: no-repeat;
+}
+
+.skills__name {
+    position: relative;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+}
+
+.skills__text {
+    font-size: 22px;
+    line-height: 29px;
+
+}
+
+
+@media (max-width: 1199px){
+    .skills__tatle {
+        font-size: 45px;
+        line-height: 59px;
+        margin-bottom: 106px;
+    }
+
+    .skills__name{
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .skills__text{
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .row {
+        row-gap: 113px;
+        column-gap: 37px;
+    }
+
+    .html-css::before {
+        background-image: url('../resources/img-1-tel.png');
+        width: 36px;
+        height: 36px;
+    }
+    .js::before{
+        background-image: url('../resources/img-2-tel.png');
+        width: 36px;
+        height: 36px;
+    }
+    .library::before{
+        background-image: url('../resources/img-3-tel.png');
+        width: 36px;
+        height: 36px;
+    }
+    .mobile::before {
+        background-image: url('../resources/img-4-tel.png');
+        width: 36px;
+        height: 36px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .row{
+        gap: 106px;
+    }
+
+    .col{
+        width: 100%;
+    }
+    .library{
+        margin-bottom: 14px;
+    }
+}
