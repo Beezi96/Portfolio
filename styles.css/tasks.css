@@ -1,4 +1,4 @@
-.tasks__tatle {
+.tasks__title {
     margin: 150px 0 74px 0;
     width: 403px;
     font-size: 35px;
@@ -37,7 +37,7 @@
 
 
 @media (max-width: 1199px) {
-    .tasks__tatle{
+    .tasks__title{
         width: 326px;
         margin: 150px 0 60px 0;
         font-size: 28px;
@@ -62,7 +62,7 @@
 
 @media (max-width: 767px) {
 
-    .tasks__tatle {
+    .tasks__title {
         margin: 100px 0 60px 0;
     }
     .tasks__name {

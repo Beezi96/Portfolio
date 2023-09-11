@@ -1,4 +1,4 @@
-.projects__tatle {
+.projects__title {
     margin: 150px 0 40px 0;
     font-size: 55px;
     /* line-height: 72px; */
@@ -48,6 +48,7 @@
 }
 
 .project__name {
+    cursor: pointer;
     position: absolute;
     bottom: 94px;
     left: 50px;
@@ -88,7 +89,7 @@
 
 @media (max-width: 1199px) {
 
-    .projects__tatle {
+    .projects__title {
         margin: 150px 0 53px 0;
         font-size: 45px;
     }
@@ -129,7 +130,7 @@
 }
 
 @media (max-width: 767px) {
-    .projects__tatle {
+    .projects__title {
         margin: 100px 0 34px 0;
         font-size: 30px;
     }

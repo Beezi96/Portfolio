@@ -54,14 +54,13 @@
 } */
 
 .contacts__btn {
-    /* position: absolute; */
+    font-family: 'IBM Plex Mono', monospace;
     box-sizing: border-box;
     display: block;
     border: none;
     border-radius: 10px;
     background: #1BFF07;
     width: 411px;
-    /* top: 546px; */
     text-align: center;
     font-size: 22px;
     line-height: 70px;

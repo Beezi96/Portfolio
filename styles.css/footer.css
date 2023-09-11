@@ -95,4 +95,8 @@
         flex-direction: column;
         gap: 20px;
     }
+    .footer__box-text{
+        padding-bottom: 35px;
+    }
+    
 }
