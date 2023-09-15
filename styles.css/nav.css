@@ -20,14 +20,14 @@
     color: #1BFF07;
 }
 
-.nav__list {
+.menu {
     display: flex;
     gap: 51px;
     
 }
 
 
-.nav__link {
+.menu__link {
     font-size: 18px;
     line-height: 23px;
     text-align: center;
@@ -35,12 +35,12 @@
     text-decoration: none;
 }
 
-.nav__link:hover {
+.menu__link:hover {
     color: #1BFF07;
 }
 
 @media (max-width: 1199px){
-    .nav__list{
+    .menu {
         display: none;
     }
 }
